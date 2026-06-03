@@ -1,0 +1,163 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f7f8;
+  --card: #ffffff;
+  --ink: #171717;
+  --muted: #5f6368;
+  --line: #e7e7ea;
+  --brand: #d2000a;
+  --brand-dark: #9f0008;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.58;
+}
+
+.page {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0 56px;
+}
+
+.shell {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: 0 18px 44px rgba(18, 18, 18, 0.06);
+  overflow: hidden;
+}
+
+header {
+  padding: 32px;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.mark {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(30px, 5vw, 48px);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.lead {
+  max-width: 720px;
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+main {
+  padding: 32px;
+}
+
+h2 {
+  margin: 32px 0 10px;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0 14px;
+}
+
+ul {
+  margin: 0 0 18px;
+  padding-left: 22px;
+}
+
+a {
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.notice {
+  margin: 24px 0;
+  padding: 16px 18px;
+  border: 1px solid rgba(210, 0, 10, 0.18);
+  border-radius: 16px;
+  background: rgba(210, 0, 10, 0.05);
+}
+
+footer {
+  padding: 24px 32px 32px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+nav a {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .page {
+    width: min(100% - 20px, 920px);
+    padding: 20px 0 36px;
+  }
+
+  header,
+  main,
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
