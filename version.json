@@ -3,10 +3,10 @@
     "enabled": true,
     "latestVersion": "1.0.2",
     "latestBuild": 5,
-    "required": true,
-    "title": "Güncelleme gerekli",
-    "message": "AYT Edebiyat+ için önemli içerik düzeltmeleri yayınlandı. Devam etmek için uygulamayı App Store üzerinden güncelleyin.",
-    "storeUrl": "itms-apps://itunes.apple.com/app/id6775452577"
+    "required": false,
+    "title": "Yeni sürüm hazır",
+    "message": "AYT Edebiyat+ için önemli içerik düzeltmeleri yayınlandı. Lütfen App Store uygulamasından AYT Edebiyat Plus'ı güncelleyin.",
+    "storeUrl": ""
   },
   "android": {
     "enabled": true,
