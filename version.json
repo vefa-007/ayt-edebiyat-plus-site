@@ -5,8 +5,8 @@
     "latestBuild": 5,
     "required": true,
     "title": "Güncelleme gerekli",
-    "message": "AYT Edebiyat+ için kritik bir içerik düzeltmesi yayınlandı. Devam etmek için uygulamayı App Store üzerinden güncelleyin.",
-    "storeUrl": "https://apps.apple.com/us/app/ayt-edebiyat-plus/id6775452577"
+    "message": "AYT Edebiyat+ için önemli içerik düzeltmeleri yayınlandı. Devam etmek için uygulamayı App Store üzerinden güncelleyin.",
+    "storeUrl": "itms-apps://itunes.apple.com/app/id6775452577"
   },
   "android": {
     "enabled": true,
